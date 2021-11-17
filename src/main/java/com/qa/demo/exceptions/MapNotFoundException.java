@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class MapNotFoundException extends EntityNotFoundException{
 
 	
+
+
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -8642244495522255975L;
 
 	public MapNotFoundException() {
 		// TODO Auto-generated constructor stub
