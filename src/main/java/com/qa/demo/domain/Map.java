@@ -19,18 +19,18 @@ public class Map {
 	private String name;
 
 	public Map(Long id, String name) {
-		super();
+		
 		this.id = id;
 		this.name = name;
 	}
 
 	public Map(String name) {
-		super();
+		
 		this.name = name;
 	}
 
 	public Map() {
-		super();
+		
 	}
 
 	public Long getId() {
