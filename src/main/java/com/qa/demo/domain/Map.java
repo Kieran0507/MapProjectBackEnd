@@ -29,10 +29,19 @@ public class Map {
 //		this.name = name;
 //	}
 
+
+	public Map(Long id, String name) {
+		
+		this.id = id;
+		this.name = name;
+
+
+
 	public Map(String name) {
 		
 		this.name = name;
 	}
+
 
 //	public Map() {
 //		
@@ -76,6 +85,7 @@ public class Map {
 //		return Objects.equals(id, other.id) && Objects.equals(name, other.name);
 //	}
 //	
+
 	
 
 }
