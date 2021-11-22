@@ -14,6 +14,10 @@ public class DoorKeyService {
 	private DoorKeyRepo repo;
 	
 	public DoorKeyService(DoorKeyRepo repo) {
+
+		super(); 
+
+
 		this.repo = repo;
 	}
 	
